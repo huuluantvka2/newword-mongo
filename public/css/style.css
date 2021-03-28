@@ -1,0 +1,42 @@
+*{
+    padding : 0;
+    margin : 0
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.title-of-content{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top:20px;
+    color:blueviolet;
+}
+.checkbox{
+    padding-left:7rem;
+}
+a{
+    text-decoration: none !important;
+}
+.checkbox input{
+    font-size: 2rem;
+    margin-top:2px
+}
+.edit-icon svg{
+    color:green;
+    margin:0 5px;
+    cursor:pointer
+}
+.delete-icon svg{
+    color: red;
+    margin:0 5px;
+    cursor:pointer
+}
+.bg-table{
+    background-color: #8bc34a6b;
+}
